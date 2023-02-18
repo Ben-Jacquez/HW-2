@@ -1,0 +1,46 @@
+* {
+
+}
+
+header {
+    border: 2px;
+    border-color: black;
+    border-style: double;
+    margin: 20px;
+    background-image: linear-gradient(to bottom right, rgb(9, 48, 189), white)
+}
+
+ul {
+    list-style-type:none;
+    margin: 0px;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom right, rgb(9, 48, 189), white)
+ }
+
+
+ li a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+ }
+ 
+ li a:hover {
+    background-color: lightblue;
+    color: black;
+    cursor: pointer;
+ }
+
+
+#profile-picture {
+    width: 250px;
+    border-radius: 30%;
+    padding-left: 20px;
+}
+
+#work-day-scheduler {
+    width: 800px;
+    padding-left: 20px;
+}

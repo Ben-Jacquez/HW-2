@@ -5,15 +5,20 @@
 Portfolio for Benjamin Jacquez using HTML and CSS
 
 ## Deployed Website
-
+[Deployed Version Here](https://ben-jacquez.github.io/ben-jacquez-portfolio/)
+![Website Screenshot]()
 
 ## Table of Contents
 - [Description](#description)
 - [Deployed Website](#deployed-website)
+- [Technology Used](#technology-used)
 - [Usage](#usage)
 - [Features](#features)
 - [License](#license)
 
+## Technology Used
+- Visual Studio Code
+- 
 
 ## Usage
 
