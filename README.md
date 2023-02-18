@@ -1,8 +1,6 @@
 # Benjamin Jacquez Porfolio
-
-
 ## Description
-Portfolio for Benjamin Jacquez using HTML and CSS
+Portfolio for Benjamin Jacquez using HTML and CSS. Showing recent projects, and contact information.
 
 ## Deployed Website
 [Deployed Version Here](https://ben-jacquez.github.io/ben-jacquez-portfolio/)
@@ -18,10 +16,11 @@ Portfolio for Benjamin Jacquez using HTML and CSS
 
 ## Technology Used
 - Visual Studio Code
-- 
+- HTML
+- CSS
 
 ## Usage
-
+Personal Website and Portfolio. This website is home to displays and links of my recent projects, as well as a way to allow visitors to reach out and contact me.
 
 ## Features
 - Navigation Bar in header that links to appropriate section of the page

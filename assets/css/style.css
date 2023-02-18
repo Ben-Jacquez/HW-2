@@ -10,13 +10,20 @@ header {
     background-image: linear-gradient(to bottom right, rgb(9, 48, 189), white)
 }
 
+section {
+    margin: 35px;
+    border: 4px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+}
+
 ul {
     list-style-type:none;
     margin: 0px;
     overflow: hidden;
     background-image: linear-gradient(to bottom right, rgb(9, 48, 189), white)
- }
-
+}
 
  li a {
     float: right;
@@ -33,11 +40,29 @@ ul {
     cursor: pointer;
  }
 
+h1, h2, h3, p {
+    text-align: center;
+}
+
+
+ .home {
+
+ }
+
+ .flex-container {
+    justify-content: center;
+ }
 
 #profile-picture {
+    justify-content: middle;
     width: 250px;
     border-radius: 30%;
     padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px var(--brown);
+    margin: 15px 15px;
+    justify-content: space-around;
+    justify-content: center;
 }
 
 #work-day-scheduler {
