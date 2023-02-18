@@ -2,14 +2,17 @@
     font-family:'Gill Sans', 'Gill Sans MT', sans-serif;
 }
 
+/* This aligns all my text on the page to the center */
 h1, h2, h3, h4, p {
     text-align: center;
 }
 
-h1 {
+/* This makes the bigger text on the page white*/
+h1, h2 {
     color: white;
 }
 
+/* This is the box around my nav bar*/
 header {
     border: 2px;
     border-color: black;
@@ -18,6 +21,7 @@ header {
     background-image: linear-gradient(to bottom, rgb(9, 48, 189), white);
 }
 
+/* This is inside the nav bar box */
 section {
     margin: 35px;
     border: 4px;
@@ -27,6 +31,7 @@ section {
     background-image: linear-gradient(to bottom, rgb(9, 48, 189), white);
 }
 
+/* this is the unordered list in makes my nav bar */
 ul {
     list-style-type:none;
     margin: 0px;
@@ -43,12 +48,14 @@ li a {
     text-decoration: none;
 }
  
+/* This changes the color of the list in the nav bar when you hover over a section*/
 li a:hover {
     background-color: lightblue;
     color: black;
     cursor: pointer;
 }
 
+/* this is what keeps all the smaller screenshots of my projects stay alligned and in the center no matter the page size*/
 .small-screenshots img {
 display: block;
 margin-left: auto;
@@ -57,6 +64,7 @@ margin-top: 50px;
 width: 300px;
 }
 
+/* this keeps the conctact me section icons */
 .icons img{
     display: block;
     margin-left: auto;
@@ -65,7 +73,7 @@ width: 300px;
     width: 100px;
 }
 
-
+/* this alligns my picture center and makes it a set size*/
 #profile-picture {
     display: block;
     margin-left: auto;
@@ -74,13 +82,10 @@ width: 300px;
     border-radius: 30%;
 }
 
+/* this makes my big project picture fit the size of the box and makes it friendly to different sizes */
 #work-day-scheduler {
     width: 100%;
     flex: wrap;
     justify-content: space-around;
     align-items: center;
-}
-
-#gmail {
-    width: 100px;
 }

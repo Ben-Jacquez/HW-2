@@ -4,7 +4,7 @@ Portfolio for Benjamin Jacquez using HTML and CSS. Showing recent projects, and 
 
 ## Deployed Website
 [Deployed Version Here](https://ben-jacquez.github.io/ben-jacquez-portfolio/)
-![Website Screenshot]()
+![Website Screenshot](assets/img/Portfolio-ss.png)
 
 ## Table of Contents
 - [Description](#description)
