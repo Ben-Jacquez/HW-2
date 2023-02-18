@@ -2,6 +2,14 @@
     font-family:'Gill Sans', 'Gill Sans MT', sans-serif;
 }
 
+h1, h2, h3, h4, p {
+    text-align: center;
+}
+
+h1 {
+    color: white;
+}
+
 header {
     border: 2px;
     border-color: black;
@@ -41,23 +49,38 @@ li a:hover {
     cursor: pointer;
 }
 
-h1, h2, h3, p {
-    text-align: center;
+.small-screenshots img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+width: 300px;
 }
+
+.icons img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 100px;
+}
+
 
 #profile-picture {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 350px;
+    width: 300px;
     border-radius: 30%;
-
 }
 
 #work-day-scheduler {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 800px;
-    padding-left: 20px;
+    width: 100%;
+    flex: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#gmail {
+    width: 100px;
 }
